@@ -1,9 +1,8 @@
 
 from flask import Flask, render_template
-from flask_ngrok import run_with_ngrok
 
 app = Flask("__name__", template_folder='templates')
-run_with_ngrok(app)
+
 
 @app.route('/')
 def hello():
