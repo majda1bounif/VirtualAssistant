@@ -1,5 +1,0 @@
-{
-  "scripts": {
-    "build": " flask build --output public"
-  }
-}
